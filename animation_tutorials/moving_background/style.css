@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+.main-content {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: radianl-gradient(
+        #666,
+        #222
+    );
+}
+
+.module-exp {
+    width: 300px;
+    border: 1px solid white;
+}
+
+
+.module-container {
+    display: block;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
