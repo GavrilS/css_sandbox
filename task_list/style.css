@@ -5,12 +5,52 @@ html {
 }
 
 body { 
-    max-width: 960px; 
-    margin: 0 auto; 
+    max-width: 80%; 
+    margin: 0 auto;
     background: white; 
 }
 
 header, .header {
+    width: 40%;
+    margin: auto;
+}
+
+.flash {
+    width: 40%;
+    margin: auto;
+    padding: 0 0 0 300px;
+    color: #32a893;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    /* border-style: none; */
+}
+
+/* .table-head, .table-body {
+    padding: 10px;
+    border-style: dashed;
+    border-width: 50px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    box-sizing: border-box;
+    /* border: 10px;
+    border-block: 10px;
+    border-inline: true;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+} */
+
+
+/*
+
+.header {
     width: 500px;
 }
 
@@ -39,4 +79,4 @@ h1 {
 
 .flash h2 {
     width: 50%;
-}
+} */
