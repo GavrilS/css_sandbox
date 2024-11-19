@@ -144,52 +144,56 @@ caption {
 }
 /* Button styling END */
 
-/* .table-head, .table-body {
-    padding: 10px;
-    border-style: dashed;
-    border-width: 50px;
-    padding: 10px;
-    background-color: #fff;
-    color: black;
+/* Form styling START */
+.add-task {
+    width: 30%;
+    margin: auto;
+}
+
+#new-task-input,
+#new-task-btn {
+    width: 450px;
+    height: 30px;
+    padding: 0 20px;
+    margin: 3px auto;
     box-sizing: border-box;
-    /* border: 10px;
-    border-block: 10px;
-    border-inline: true;
+}
+
+#new-task-btn {
+    border: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    border-color: black;
-    border-width: 10px;
-} */
-
-
-/*
-
-.header {
-    width: 500px;
+    background-color: rgba(0, 100, 220, 1);
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0)
+    );
+    box-shadow: 
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-h1 {
-    font-family: serif;
-    color: #377ba8;
-    margin: 1rem 0;
+#new-task-btn:hover {
+    background-color: rgba(0, 120, 240, 1);
 }
 
-.content {
-    padding: 0 1rem 1rem;
-    width: 50%;
+#new-task-btn:active {
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.content > header {
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    align-items: flex-end;
-
+#new-task-input {
+    border: 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
 }
-
-.content > header h1 {
-    flex: auto;
-    margin: 1rem 0 0.25rem 0;
-}
-
-.flash h2 {
-    width: 50%;
-} */
+/* Form styling END */
