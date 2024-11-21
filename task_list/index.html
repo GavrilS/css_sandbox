@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
     <title>Task List</title>
 </head>
 <body>
@@ -16,14 +17,14 @@
         <div class="flash">
             <h2>Hello, World!</h2>
         </div>
-        <table>
-            <thead class="table-head">
+        <table id="tasks-table">
+            <thead class="tasks-table-head">
                 <tr>
                     <th scope="col">To Do Items</th>
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
-            <tbody class="table-body">
+            <tbody class="tasks-table-body" id="tasks-table-body">
                 <tr>
                     <td>Study/Work with Flask!</td>
                     <td>
@@ -58,7 +59,7 @@
             </caption>
         </table>
         <div class="add-task">
-            <form action="" method="get">
+            <form id="new-task-form" action="" method="get">
                 <!-- <label for="add-task" id="new-task-label">Add new task</label> -->
                 <input type="text" id="new-task-input" placeholder="New task...">
                 <button id="new-task-btn" type="submit">Submit</button>
